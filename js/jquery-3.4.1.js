@@ -6058,6 +6058,7 @@ jQuery.extend( {
 
 jQuery.fn.extend( {
 	detach: function( selector ) {
+    console.log('detach executed!');
 		return remove( this, selector, true );
 	},
 
